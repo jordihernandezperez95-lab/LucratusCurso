@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Jordioso Paloso</h1>
+    <h3>El terror de las nenas 1</h3>
+    <p>Lorem <strong>Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <h3>Lista Ordenada</h3>
+    <ol type="1" start="10" reversed>
+        <li> Elemento 1 </li>
+        <li> Elemento 2 </li>
+        <li> Elemento 3 </li>
+    </ol>
+    <h3>Lista Desordenada</h3>
+    <ul style="list-style-type: none;">
+        <li> Elemento 1 </li>
+        <li> Elemento 2 </li>
+        <li> Elemento 3 </li>
+    </ul>
+    <h3>Tabla enterita</h3>
+    <table>
+        <caption><h4>Título de la tabla</h4></caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Jordi</td>
+                <td>Hernandez</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Jordi</td>
+                <td>Hernandez</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Jordi</td>
+                <td>Hernandez</td>
+                <td>29</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2" align="right">Total: </td>
+                <td>87</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h3>Formularios</h3>
+    <form method="post" target="_blank">
+        <label for="username">Nombre: </label>
+        <input type="text" name="username" id="username" required>
+
+        <br>
+
+        <label for="pass">Contraseña: </label>
+        <input type="password" name="pass" id="pass" required>
+
+        <br>
+
+        <label for="genero">Género: </label>
+        <input type="radio" name="genero" id="hombre" value="hombre" checked>
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="genero" id="mujer" value="mujer">
+        <label for="mujer">Mujer</label>
+
+        <br>
+
+        <label>Que tienes en casa?</label>
+        <br>
+
+        <input type="checkbox" id="aparato1" name="aparato1" value="nevera">
+        <label for="aparato1">Nevera</label>
+        <input type="checkbox" id="aparato2" name="aparato2" value="microondas">
+        <label for="aparato2">Microondas</label>
+        <input type="checkbox" id="aparato3" name="aparato3" value="horno">
+        <label for="aparato3">Horno</label>
+        <input type="checkbox" id="aparato4" name="aparato4" value="lavadora">
+        <label for="aparato4">Lavadora</label>
+
+        <br>
+        
+        <label for="correo">Email: </label>
+        <input type="email" id="correo" name="correo" required>
+
+        <br>
+
+        <label for="archivo">Seleccionar archivo: </label>
+        <input type="file" id="archivo" name="archivo" accept=".png" multiple>
+
+        <br>
+
+        <label for="edad">Edad: </label>
+        <input type="number" id="edad" name="edad" required>
+
+        <br>
+
+        <label for="telefono">Teléfono (Ej: 111 22 33 44): </label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}">
+
+        <br>
+
+        <label for="fecha">Fecha de nacimiento: </label>
+        <input type="date" id="fecha" name="fecha" min="1900-01-01" max="2030-12-31">
+
+        <br>
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
+
+
+<!-- 
+<tr></tr> -> Filas (Sin filas no hay columnas) 
+
+<th></th> -> Columnas del header
+
+<td></td> -> Columna de datos (celdas)
+--> 

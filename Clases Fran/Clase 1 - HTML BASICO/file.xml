@@ -1,0 +1,29 @@
+<clase>
+    <alumnos>
+        <alumno xml:inss="Alumno" >
+            <nombre> Juan Francisco </nombre>
+            <apellido> Sanchez </apellido>
+            <edad> 28 </edad>
+        </alumno>
+        <alumno>
+            <nombre> Jordi Francisco </nombre>
+            <apellido> Sanchez </apellido>
+            <edad> 28 </edad>
+        </alumno>
+        <alumno>
+            <nombre> Pepe Francisco </nombre>
+            <apellido> Sanchez </apellido>
+            <edad> 28 </edad>
+        </alumno>
+        <alumno>
+            <nombre> Jose Francisco
+            <apellido> Sanchez </apellido>
+            <edad> 28 </edad>
+        </alumno>
+    </alumnos>
+    <profesor>
+        <nombre> Luis Francisco </nombre>
+        <apellido> Sanchez </apellido>
+        <edad> 89 </edad>
+    </profesor>
+</clase>
