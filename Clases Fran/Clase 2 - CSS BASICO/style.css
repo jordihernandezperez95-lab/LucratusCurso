@@ -1,0 +1,43 @@
+.cabecera-principal {
+    color: blue;
+}
+
+.cabecera-secundaria {
+    color: blueviolet;
+    text-align: center;
+}
+
+.cabecera-espacio {
+    margin: 50px;
+}
+
+.cabecera-alineacion {
+    text-align: center;
+}
+
+.cabecera-fondo {
+    background-color: brown;
+}
+
+.estilo-parrafo {
+    border:3px solid orange;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: aquamarine;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.parrafo2 {
+    width: 80%;
+}
+
+.contenido-flexible {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
