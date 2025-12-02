@@ -1,0 +1,31 @@
+caption {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    border-spacing: 30px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    background-color: orange;
+}
+
+tr:nth-child(even) {
+    background-color: dodgerblue;
+}
+tfoot {
+    border: none;
+    text-decoration: none;
+}
+tr:hover {
+    background-color: #eee;

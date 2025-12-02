@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Usuario"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-28 12:35:23 "/>
+        <attribute name="created" value="VXN1YXJpbztERVNLVE9QLTkwQzhRTTc7MjAyNS0xMS0yODsiMTI6MDM6NTEgIjsyOTU2"/>
+        <attribute name="edited" value="VXN1YXJpbztERVNLVE9QLTkwQzhRTTc7MjAyNS0xMS0yODsiMTI6MzU6MjMgIjsxOzMwNjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1" type="Integer" array="False" size=""/>
+            <declare name="numero2" type="Integer" array="False" size=""/>
+            <declare name="decisi&#243;nUsuario" type="String" array="False" size=""/>
+            <output expression="&quot;Francoso&quot;" newline="True"/>
+            <output expression="&quot;Que quieres hacer hoy?&quot;" newline="True"/>
+            <input variable="decisi&#243;nUsuario"/>
+            <output expression="&quot;Seguro que, &quot; &amp; decisi&#243;nUsuario &amp; &quot;?&quot;" newline="True"/>
+            <output expression="&quot;Vale, me importa poco, dime 1 numero y luego otro.&quot;" newline="True"/>
+            <input variable="numero1"/>
+            <input variable="numero2"/>
+            <output expression="&quot;Suma: &quot; &amp; numero1 + numero2" newline="True"/>
+            <output expression="&quot;Resta &quot;&amp; numero1 - numero2" newline="True"/>
+            <output expression="&quot;Multiplicaci&#243;n &quot; &amp; numero1 * numero2" newline="True"/>
+            <output expression="&quot;Divisi&#243;n &quot;&amp; numero1 / numero2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

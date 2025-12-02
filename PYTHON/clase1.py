@@ -9,7 +9,7 @@ puedes hacer varias
 
 # type 
 print( type("Hola mundo") )
-print( type(58) )
+print( type(58) ) 
 print( type(0.755) )
 print( type(False) )
 
