@@ -1,0 +1,47 @@
+"usuarios": [
+    {
+        "nombre" : "Jordi",
+        "edad" : 29,
+        "email" : "jordi@gmail.com"
+    },
+    {
+        "nombre" : "Fran",
+        "edad" : 28,
+        "email" : "Fran@gmail.com"
+    },
+    {
+        "nombre" : "Ana",
+        "edad" : 36,
+        "email" : "Ana@gmail.com"
+    }
+]
+
+int (entero)
+string (cadena texto)
+float (decimal corto)
+double (decimal largo)
+char (caracter)
+boolean (TRUE/FALSE)
+
+Usuario {
+    edad -> int
+    nombre -> string
+    pesos -> float
+    inicial -> char
+    es Mujer? -> boolean (True / False)
+}
+
+Alumno {
+    nombre -> string
+    notas -> [float, float, float, float, float]
+}
+
+Ratón {
+    color -> string
+    modelo -> string
+
+    ACCIONES
+        · hacer click derecho
+        · hacer click izquierdo
+        · avisar de error
+}
